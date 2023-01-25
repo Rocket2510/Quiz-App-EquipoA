@@ -83,7 +83,7 @@
         app:layout_constraintVertical_bias="0.403" />
 
     <EditText
-        android:id="@+id/txt_PasswordAccess"
+        android:id="@+id/txt_PasswordAddress"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -96,9 +96,10 @@
         app:layout_constraintVertical_bias="0.598" />
 
     <Button
-        android:id="@+id/btn_registrarse"
+        android:id="@+id/btn_registrar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:onClick="btn_Registrar"
         android:text="Registrate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

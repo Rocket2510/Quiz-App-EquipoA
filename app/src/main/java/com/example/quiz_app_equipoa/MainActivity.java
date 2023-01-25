@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         txt_3 = (TextView) findViewById(R.id.txt_pswd);
 
         Etxt_Email = (EditText) findViewById(R.id.txt_EmailAccess);
-        Etxt_password = (EditText) findViewById(R.id.txt_PasswordAccess);
+        Etxt_password = (EditText) findViewById(R.id.txt_PasswordAddress);
 
         btn_IniciarSesion = (Button) findViewById(R.id.btn_IniciarSesion1);
         btn_Registrarse = (Button) findViewById(R.id.btn_Registrate1);

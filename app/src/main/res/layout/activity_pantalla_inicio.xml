@@ -22,7 +22,7 @@
             android:layout_gravity="center|center_vertical"
             android:gravity="center_horizontal"
             android:text="@string/txt_TxtQuiz"
-            android:textSize="60sp" />
+            android:textSize="40sp" />
 
     </LinearLayout>
 
@@ -56,15 +56,19 @@
 
         <Button
             android:id="@+id/btn_Modalidad"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
             android:onClick="Btn_Modalidad"
             android:text="@string/btn_Modalidad" />
 
         <Button
             android:id="@+id/btn_Iniciar"
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
             android:text="@string/btn_Iniciar" />
     </LinearLayout>
 
