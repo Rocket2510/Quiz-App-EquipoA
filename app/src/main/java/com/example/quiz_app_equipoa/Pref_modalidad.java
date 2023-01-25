@@ -8,6 +8,7 @@ import androidx.preference.PreferenceFragmentCompat;
 
 public class Pref_modalidad extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

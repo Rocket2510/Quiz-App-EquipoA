@@ -7,20 +7,20 @@
     <string name="btn_Iniciar">Iniciar</string>
     <string name="title_activity_pref_modalidad">Pref_modalidad</string>
 
-
-
-
     <!-- Strings Preferencias de Usuario -->
     <!-- Preference Titles -->
     <string name="messages_header1">Selecciona la Modalidad</string>
-    <string name="messages_header2">Configurar Fuente</string>
+    <string name="messages_header2">Fuente</string>
     <string name="sync_header">Sync</string>
 
     <!-- Categoria Modalidad -->
-    <string name="signature_title">Your signature</string>
-    <string name="reply_title">Modalidad</string>
+    <string name="signature_title1"></string>
+    <string name="reply_titleModalidad">Modalidad</string>
 
     <!-- Categoria de Fuente -->
+    <string name="signature_title2"></string>
+    <string name="reply_titleModalidadFuente">Fuentes</string>
+
     <!-- Sync Preferences -->
     <string name="sync_title">Sync email periodically</string>
     <string name="attachment_title">Download incoming attachments</string>

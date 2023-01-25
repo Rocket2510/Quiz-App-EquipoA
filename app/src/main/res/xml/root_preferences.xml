@@ -5,30 +5,25 @@
     <PreferenceCategory app:title="@string/messages_header1">
         <ListPreference
             app:defaultValue="reply"
-            app:entries="@array/reply_entries"
-            app:entryValues="@array/reply_values"
-            app:key="reply"
-            app:title="@string/reply_title"
+            app:entries="@array/reply_entriesModalidad"
+            app:entryValues="@array/reply_valuesModalidad"
+            app:key="reply_Modalidad"
+            app:title="@string/reply_titleModalidad"
             app:useSimpleSummaryProvider="true" />
     </PreferenceCategory>
 
     <!-- Categoria de Fuente -->
     <PreferenceCategory app:title="@string/messages_header2">
-
-        <EditTextPreference
-            app:key="signature"
-            app:title="@string/signature_title"
-            app:useSimpleSummaryProvider="true" />
-
         <ListPreference
             app:defaultValue="reply"
-            app:entries="@array/reply_entries"
-            app:entryValues="@array/reply_values"
-            app:key="reply"
-            app:title="@string/reply_title"
+            app:entries="@array/reply_entriesFuente"
+            app:entryValues="@array/reply_valuesFuente"
+            app:key="reply_Fuente"
+            app:title="@string/reply_titleModalidad"
             app:useSimpleSummaryProvider="true" />
-
     </PreferenceCategory>
+
+
 
     <PreferenceCategory app:title="@string/sync_header">
 
