@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txt_pswd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Contraseña"
@@ -32,7 +32,7 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txt_welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bienvenido"
@@ -45,7 +45,7 @@
         app:layout_constraintVertical_bias="0.324" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txt_Email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email"
@@ -57,7 +57,7 @@
         app:layout_constraintVertical_bias="0.373" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/txt_EmailAccess"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -70,7 +70,7 @@
         app:layout_constraintVertical_bias="0.46" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/txt_PasswordAccess"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -83,10 +83,10 @@
         app:layout_constraintVertical_bias="0.657" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_IniciarSesion1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:onClick="IniciarSesion"
+        android:onClick="Btn_IniciarSesion"
         android:text="Iniciar Sesión"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -96,9 +96,10 @@
         app:layout_constraintVertical_bias="0.815" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_Registrate1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:onClick="Btn_Registrarse"
         android:text="Registrate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

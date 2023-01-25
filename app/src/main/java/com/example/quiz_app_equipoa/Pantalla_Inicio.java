@@ -23,6 +23,7 @@ public class Pantalla_Inicio extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pantalla_inicio);
+
         //leer preferencias del usuario
         prefs = PreferenceManager.getDefaultSharedPreferences(this);
         IniciarlizarComponetentes();
@@ -67,7 +68,7 @@ public class Pantalla_Inicio extends AppCompatActivity {
         }
     }
 
-    public void Modalidad (View v){
+    public void Btn_Modalidad (View v){
         Intent preferencias = new Intent(this, Pref_modalidad.class);
         startActivity(preferencias);
     }

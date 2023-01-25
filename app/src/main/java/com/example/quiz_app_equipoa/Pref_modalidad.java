@@ -4,10 +4,11 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.preference.ListPreference;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceFragmentCompat;
 
 public class Pref_modalidad extends AppCompatActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
