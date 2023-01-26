@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Modulo1.Pregunta_1">
-
+    tools:context=".Modulo1.Pregunta_2">
 
     <ScrollView
         android:layout_width="409dp"
@@ -82,4 +81,5 @@
 
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
