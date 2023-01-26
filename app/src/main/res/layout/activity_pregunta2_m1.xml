@@ -17,14 +17,14 @@
             tools:ignore="MissingConstraints">
 
             <TextView
-                android:id="@+id/txt_2_m1"
+                android:id="@+id/txt_2"
                 android:layout_width="322dp"
                 android:layout_height="52dp"
                 android:layout_marginStart="44dp"
                 android:layout_marginTop="32dp"
                 android:text="1"
                 android:textColor="#2196F3"
-                android:textSize="20sp"
+                android:textSize="15sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -38,25 +38,25 @@
                 app:layout_constraintTop_toBottomOf="@+id/txt_1">
 
                 <RadioButton
-                    android:id="@+id/rb2_A_m1"
+                    android:id="@+id/rb2_A"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="A" />
 
                 <RadioButton
-                    android:id="@+id/rb2_B_m1"
+                    android:id="@+id/rb2_B"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="B" />
 
                 <RadioButton
-                    android:id="@+id/rb2_C_m1"
+                    android:id="@+id/rb2_C"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="C" />
 
                 <RadioButton
-                    android:id="@+id/rb2_D_m1"
+                    android:id="@+id/rb2_D"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="D" />
@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="144dp"
                 android:layout_marginTop="64dp"
-                android:text="@string/btn_siguiente"
+                android:text="@string/btn_siguiente2"
                 android:onClick="Btn_Enviar2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/radioGroup" />

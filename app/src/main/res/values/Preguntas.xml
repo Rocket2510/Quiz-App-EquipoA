@@ -43,7 +43,7 @@
 
     /*Respuestas Modulo 3*/
     <string name="rb1_A_m3">Mariposa</string> <string name="rb3_A_m3">1921</string> <string name="rb5_A_m3">Una</string>
-    <string name="rb1_B_m3">Revés.</string> <string name="rb3_B_m3">1902</string> <string name="rb5_B_m3">Dos</string>
+    <string name="rb1_B_m3">Revés.</string> <string name="rb3_B_m3">1901</string> <string name="rb5_B_m3">Dos</string>
     <string name="rb1_C_m3">Freestyle</string> <string name="rb3_C_m3">1931</string> <string name="rb5_C_m3">Tres</string>
     <string name="rb1_D_m3">remo para perros</string> <string name="rb3_D_m3">1911</string> <string name="rb5_D_m3">Las cuatro</string>
     <string name="rb2_A_m3">China</string> <string name="rb4_A_m3">Italia</string>
@@ -59,10 +59,10 @@
     <string name="txt_5_m4">5.¿Cuál es la famosa cita de El Sexto Sentido?</string> veo gente muerta
 
     /*Respuestas Modulo 4*/
-    <string name="rb1_A_m4">14</string> <string name="rb3_A_m4">La maldición de Frankenstein</string> <string name="rb5_A_m4">"Escucho gente muerta"</string>
-    <string name="rb1_B_m4">11</string> <string name="rb3_B_m4">Casa del diablo </string> <string name="rb5_B_m4">“Caminando como gente normal. Ellos no se ven"</string>
-    <string name="rb1_C_m4">12</string> <string name="rb3_C_m4">Misterio del museo de cera </string> <string name="rb5_C_m4">"Veo a gente muerta."</string>
-    <string name="rb1_D_m4">10</string> <string name="rb3_D_m4">El resplandor</string> <string name="rb5_D_m4">"Dejen dormir"</string>
+    <string name="rb1_A_m4">14</string> <string name="rb3_A_m4">La maldición de Frankenstein</string> <string name="rb5_A_m4">“Escucho gente muerta“</string>
+    <string name="rb1_B_m4">11</string> <string name="rb3_B_m4">Casa del diablo </string> <string name="rb5_B_m4">“Caminando como gente normal. Ellos no se ven“</string>
+    <string name="rb1_C_m4">12</string> <string name="rb3_C_m4">Misterio del museo de cera </string> <string name="rb5_C_m4">“Veo a gente muerta“</string>
+    <string name="rb1_D_m4">10</string> <string name="rb3_D_m4">El resplandor</string> <string name="rb5_D_m4">“Dejen dormir“</string>
     <string name="rb2_A_m4">2015</string> <string name="rb4_A_m4">Sombras en la oscuridad </string>
     <string name="rb2_B_m4">2016</string> <string name="rb4_B_m4">Desde el infierno</string>
     <string name="rb2_C_m4">2014</string> <string name="rb4_C_m4">Piratas del Caribe</string>

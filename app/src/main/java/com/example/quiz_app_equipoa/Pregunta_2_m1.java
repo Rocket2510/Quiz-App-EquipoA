@@ -90,9 +90,9 @@ public class Pregunta_2_m1 extends AppCompatActivity {
             case"Historia":
                 pregunta.setText(getResources().getString(R.string.txt_2_m1));
                 rb1.setText(getResources().getString(R.string.rb2_A_m1));
-                rb2.setText(getResources().getString(R.string.rb2_B_m1));
+                rb2.setText(getResources().getString(R.string.rb2_D_m1));
                 rb3.setText(getResources().getString(R.string.rb2_C_m1));
-                rb4.setText(getResources().getString(R.string.rb2_D_m1)); break;
+                rb4.setText(getResources().getString(R.string.rb2_B_m1)); break;
 
             case"Biología":
                 pregunta.setText(getResources().getString(R.string.txt_2_m2));
@@ -104,16 +104,16 @@ public class Pregunta_2_m1 extends AppCompatActivity {
             case"Deportes":
                 pregunta.setText(getResources().getString(R.string.txt_2_m3));
                 rb1.setText(getResources().getString(R.string.rb2_A_m3));
-                rb2.setText(getResources().getString(R.string.rb2_B_m3));
+                rb2.setText(getResources().getString(R.string.rb2_D_m3));
                 rb3.setText(getResources().getString(R.string.rb2_C_m3));
-                rb4.setText(getResources().getString(R.string.rb2_D_m3)); break;
+                rb4.setText(getResources().getString(R.string.rb2_B_m3)); break;
 
             case"Cine":
                 pregunta.setText(getResources().getString(R.string.txt_2_m4));
-                rb1.setText(getResources().getString(R.string.rb2_A_m4));
+                rb1.setText(getResources().getString(R.string.rb2_D_m4));
                 rb2.setText(getResources().getString(R.string.rb2_B_m4));
                 rb3.setText(getResources().getString(R.string.rb2_C_m4));
-                rb4.setText(getResources().getString(R.string.rb2_D_m4)); break;
+                rb4.setText(getResources().getString(R.string.rb2_A_m4)); break;
 
         }
     }
@@ -123,11 +123,11 @@ public class Pregunta_2_m1 extends AppCompatActivity {
     public void IncializarComponentes(){
         //leer preferencias del usuario
         prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        pregunta = findViewById(R.id.txt_2_m1);
-        rb1 = findViewById(R.id.rb2_A_m1);
-        rb2 = findViewById(R.id.rb2_B_m1);
-        rb3 = findViewById(R.id.rb2_C_m1);
-        rb4 = findViewById(R.id.rb2_D_m1);
+        pregunta = findViewById(R.id.txt_2);
+        rb1 = findViewById(R.id.rb2_A);
+        rb2 = findViewById(R.id.rb2_B);
+        rb3 = findViewById(R.id.rb2_C);
+        rb4 = findViewById(R.id.rb2_D);
         siguiente = findViewById(R.id.button2);
 
     }
@@ -139,22 +139,22 @@ public class Pregunta_2_m1 extends AppCompatActivity {
         int idElegido = opciones.getCheckedRadioButtonId();
 
         switch (idElegido){
-            case R.id.rb2_A_m1:
+            case R.id.rb2_A:
                 calificacion+=0;
                 Toast.makeText(this, "Elegiste la opción 1", '1').show();
                 break;
 
-            case R.id.rb2_B_m1:
+            case R.id.rb2_B:
                 calificacion+=0;
                 Toast.makeText(this, "Elegiste la opción 2", '1').show();
                 break;
 
-            case R.id.rb2_C_m1:
+            case R.id.rb2_C:
                 calificacion+=0;
                 Toast.makeText(this, "Elegiste la opción 3", '1').show();
                 break;
 
-            case R.id.rb2_D_m1:
+            case R.id.rb2_D:
                 calificacion+=2;
                 respuesta2++;
                 Toast.makeText(this, "Elegiste la opción 4", '1').show();

@@ -29,7 +29,11 @@
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
 
     <!--Strings Preguntas-->
-    <string name="btn_siguiente">Siguiente</string>
+    <string name="btn_siguiente1">Siguiente</string>
+    <string name="btn_siguiente2">Siguiente</string>
+    <string name="btn_siguiente3">Siguiente</string>
+    <string name="btn_siguiente4">Siguiente</string>
+    <string name="btn_siguiente5">Siguiente</string>
 
     /*Resultados*/
     <string name="txt_6">Tus respuestas</string>

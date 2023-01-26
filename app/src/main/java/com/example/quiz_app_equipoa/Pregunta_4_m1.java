@@ -93,10 +93,10 @@ public class Pregunta_4_m1 extends AppCompatActivity {
         switch (Quiz){
             case"Historia":
                 pregunta.setText(getResources().getString(R.string.txt_4_m1));
-                rb1.setText(getResources().getString(R.string.rb4_A_m1));
+                rb1.setText(getResources().getString(R.string.rb4_D_m1));
                 rb2.setText(getResources().getString(R.string.rb4_B_m1));
                 rb3.setText(getResources().getString(R.string.rb4_C_m1));
-                rb4.setText(getResources().getString(R.string.rb4_D_m1)); break;
+                rb4.setText(getResources().getString(R.string.rb4_A_m1)); break;
 
             case"Biología":
                 pregunta.setText(getResources().getString(R.string.txt_4_m2));
@@ -125,11 +125,11 @@ public class Pregunta_4_m1 extends AppCompatActivity {
     public void IncializarComponentes(){
         //leer preferencias del usuario
         prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        pregunta = findViewById(R.id.txt_4_m1);
-        rb1 = findViewById(R.id.rb4_A_m1);
-        rb2 = findViewById(R.id.rb4_B_m1);
-        rb3 = findViewById(R.id.rb4_C_m1);
-        rb4 = findViewById(R.id.rb4_D_m1);
+        pregunta = findViewById(R.id.txt_4);
+        rb1 = findViewById(R.id.rb4_A);
+        rb2 = findViewById(R.id.rb4_B);
+        rb3 = findViewById(R.id.rb4_C);
+        rb4 = findViewById(R.id.rb4_D);
         siguiente = findViewById(R.id.button4);
 
     }
@@ -141,24 +141,24 @@ public class Pregunta_4_m1 extends AppCompatActivity {
         int respuesta4=0;
         int idElegido = opciones.getCheckedRadioButtonId();
         switch (idElegido){
-            case R.id.rb4_A_m1:
-                calificacion+=2;
-                respuesta4++;
+            case R.id.rb4_A:
+                calificacion+=0;
                 Toast.makeText(this, "Elegiste la opción 1", '1').show();
                 break;
 
-            case R.id.rb4_B_m1:
+            case R.id.rb4_B:
                 calificacion+=0;
                 Toast.makeText(this, "Elegiste la opción 2", '1').show();
                 break;
 
-            case R.id.rb4_C_m1:
+            case R.id.rb4_C:
                 calificacion+=0;
                 Toast.makeText(this, "Elegiste la opción 3", '1').show();
                 break;
 
-            case R.id.rb4_D_m1:
-                calificacion+=0;
+            case R.id.rb4_D:
+                calificacion+=2;
+                respuesta4++;
                 Toast.makeText(this, "Elegiste la opción 4", '1').show();
                 break;
         }

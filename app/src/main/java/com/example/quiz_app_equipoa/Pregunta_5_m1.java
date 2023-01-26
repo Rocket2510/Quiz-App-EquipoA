@@ -67,8 +67,8 @@ public class Pregunta_5_m1 extends AppCompatActivity {
                 Typeface Roboto = getResources().getFont(R.font.roboto);
                 pregunta.setTypeface(Roboto);
                 rb1.setTypeface(Roboto);
+                rb2.setTypeface(Roboto);
                 rb3.setTypeface(Roboto);
-                rb4.setTypeface(Roboto);
                 rb4.setTypeface(Roboto);
                 siguiente.setTypeface(Roboto);break;
             case "Monserrat":
@@ -96,8 +96,8 @@ public class Pregunta_5_m1 extends AppCompatActivity {
         switch (Quiz){
             case"Historia":
                 pregunta.setText(getResources().getString(R.string.txt_5_m1));
-                rb1.setText(getResources().getString(R.string.rb5_A_m1));
-                rb2.setText(getResources().getString(R.string.rb5_B_m1));
+                rb1.setText(getResources().getString(R.string.rb5_B_m1));
+                rb2.setText(getResources().getString(R.string.rb5_A_m1));
                 rb3.setText(getResources().getString(R.string.rb5_C_m1));
                 rb4.setText(getResources().getString(R.string.rb5_D_m1)); break;
 
@@ -110,8 +110,8 @@ public class Pregunta_5_m1 extends AppCompatActivity {
 
             case"Deportes":
                 pregunta.setText(getResources().getString(R.string.txt_5_m3));
-                rb1.setText(getResources().getString(R.string.rb5_A_m3));
-                rb2.setText(getResources().getString(R.string.rb5_B_m3));
+                rb1.setText(getResources().getString(R.string.rb5_B_m3));
+                rb2.setText(getResources().getString(R.string.rb5_A_m3));
                 rb3.setText(getResources().getString(R.string.rb5_C_m3));
                 rb4.setText(getResources().getString(R.string.rb5_D_m3)); break;
 
@@ -128,11 +128,11 @@ public class Pregunta_5_m1 extends AppCompatActivity {
     public void IncializarComponentes(){
         //leer preferencias del usuario
         prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        pregunta = findViewById(R.id.txt_5_m1);
-        rb1 = findViewById(R.id.rb5_A_m1);
-        rb2 = findViewById(R.id.rb5_B_m1);
-        rb3 = findViewById(R.id.rb5_C_m1);
-        rb4 = findViewById(R.id.rb5_D_m1);
+        pregunta = findViewById(R.id.txt_5);
+        rb1 = findViewById(R.id.rb5_A);
+        rb2 = findViewById(R.id.rb5_B);
+        rb3 = findViewById(R.id.rb5_C);
+        rb4 = findViewById(R.id.rb5_D);
         siguiente = findViewById(R.id.button5);
 
     }
@@ -145,23 +145,23 @@ public class Pregunta_5_m1 extends AppCompatActivity {
         int respuesta5 = 0;
         int idElegido = opciones.getCheckedRadioButtonId();
         switch (idElegido){
-            case R.id.rb5_A_m1:
-                calificacion+=0;
+            case R.id.rb5_A:
+                calificacion+=2;
+                respuesta5++;
                 Toast.makeText(this, "Elegiste la opción 1", '1').show();
                 break;
 
-            case R.id.rb5_B_m1:
-                calificacion+=2;
-                respuesta5++;
+            case R.id.rb5_B:
+                calificacion+=0;
                 Toast.makeText(this, "Elegiste la opción 2", '1').show();
                 break;
 
-            case R.id.rb5_C_m1:
+            case R.id.rb5_C:
                 calificacion+=0;
                 Toast.makeText(this, "Elegiste la opción 3", '1').show();
                 break;
 
-            case R.id.rb5_D_m1:
+            case R.id.rb5_D:
                 calificacion+=0;
                 Toast.makeText(this, "Elegiste la opción 4", '1').show();
                 break;
