@@ -50,6 +50,7 @@ public class Pregunta_4_m1 extends AppCompatActivity {
     @Override
     protected void onResume() {
         Pref_Fuente();
+        Pref_Quiz();
         super.onResume();
     }
 
@@ -83,6 +84,41 @@ public class Pregunta_4_m1 extends AppCompatActivity {
                 rb3.setTypeface(play);
                 rb4.setTypeface(play);
                 siguiente.setTypeface(play);break;
+        }
+    }
+
+    public void Pref_Quiz(){
+        String Quiz = prefs.getString("reply_Modalidad", "Biología");
+
+        switch (Quiz){
+            case"Historia":
+                pregunta.setText(getResources().getString(R.string.txt_4_m1));
+                rb1.setText(getResources().getString(R.string.rb4_A_m1));
+                rb2.setText(getResources().getString(R.string.rb4_B_m1));
+                rb3.setText(getResources().getString(R.string.rb4_C_m1));
+                rb4.setText(getResources().getString(R.string.rb4_D_m1)); break;
+
+            case"Biología":
+                pregunta.setText(getResources().getString(R.string.txt_4_m2));
+                rb1.setText(getResources().getString(R.string.rb4_A_m2));
+                rb2.setText(getResources().getString(R.string.rb4_B_m2));
+                rb3.setText(getResources().getString(R.string.rb4_C_m2));
+                rb4.setText(getResources().getString(R.string.rb4_D_m2)); break;
+
+            case"Deportes":
+                pregunta.setText(getResources().getString(R.string.txt_4_m3));
+                rb1.setText(getResources().getString(R.string.rb4_A_m3));
+                rb2.setText(getResources().getString(R.string.rb4_B_m3));
+                rb3.setText(getResources().getString(R.string.rb4_C_m3));
+                rb4.setText(getResources().getString(R.string.rb4_D_m3)); break;
+
+            case"Cine":
+                pregunta.setText(getResources().getString(R.string.txt_4_m4));
+                rb1.setText(getResources().getString(R.string.rb4_A_m4));
+                rb2.setText(getResources().getString(R.string.rb4_B_m4));
+                rb3.setText(getResources().getString(R.string.rb4_C_m4));
+                rb4.setText(getResources().getString(R.string.rb4_D_m4)); break;
+
         }
     }
 
