@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Modulo1.Pregunta_5">
+    tools:context=".Modulo1.Pregunta_5_m1">
 
     <ScrollView
         android:layout_width="409dp"
@@ -44,25 +44,25 @@
                 app:layout_constraintTop_toBottomOf="@+id/txt_1">
 
                 <RadioButton
-                    android:id="@+id/rb1_A"
+                    android:id="@+id/rb5_A"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="A" />
 
                 <RadioButton
-                    android:id="@+id/rb1_B"
+                    android:id="@+id/rb5_B"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="B" />
 
                 <RadioButton
-                    android:id="@+id/rb1_C"
+                    android:id="@+id/rb5_C"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="C" />
 
                 <RadioButton
-                    android:id="@+id/rb1_D"
+                    android:id="@+id/rb5_D"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="D" />
@@ -74,7 +74,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="144dp"
                 android:layout_marginTop="64dp"
-
+                android:onClick="btn_Enviar5"
                 android:text="@string/btn_siguiente"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/radioGroup" />

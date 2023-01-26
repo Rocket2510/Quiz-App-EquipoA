@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+
 public class Pantalla_Inicio extends AppCompatActivity {
     private TextView txt_TxtQuiz;
     private Button btn_Iniciar;
@@ -71,6 +72,11 @@ public class Pantalla_Inicio extends AppCompatActivity {
     public void Btn_Modalidad (View v){
         Intent preferencias = new Intent(this, Pref_modalidad.class);
         startActivity(preferencias);
+    }
+
+    public void Btn_IniciarJuego(View v){
+        Intent StartGame = new Intent(this, Pregunta_1_m1.class);
+        startActivity(StartGame);
     }
 
 

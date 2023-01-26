@@ -31,4 +31,14 @@
     <!--Strings Preguntas-->
     <string name="btn_siguiente">Siguiente</string>
 
+    /*Resultados*/
+    <string name="txt_6">Tus respuestas</string>
+    <string name="txt_P1">Pregunta 1:</string>
+    <string name="txt_P2">Pregunta 2:</string>
+    <string name="txt_P3">Pregunta 3:</string>
+    <string name="txt_P4">Pregunta 4:</string>
+    <string name="txt_P5">Pregunta 5:</string>
+    <string name="txt_7">Tu calificación</string>
+    <string name="txt_res"></string>
+
 </resources>
