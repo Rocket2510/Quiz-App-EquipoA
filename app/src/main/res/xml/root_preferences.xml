@@ -20,7 +20,7 @@
             app:entries="@array/reply_entriesFuente"
             app:entryValues="@array/reply_valuesFuente"
             app:key="reply_Fuente"
-            app:title="@string/reply_titleModalidad"
+            app:title="@string/reply_titleModalidadFuente"
             app:useSimpleSummaryProvider="true" />
     </PreferenceCategory>
 
