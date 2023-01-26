@@ -16,7 +16,8 @@ public class ConexionSQLite extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE users " +
-                "(username TEXT PRIMARY KEY AUTOINCREMENT," +
+                "(user_id INTEGER PRIMARY KEY AUTOINCREMENT," +
+                "username TEXT NOT NULL," +
                 " email VARCHAR NOT NULL," +
                 " password TEXT NOT NULL)");
 
