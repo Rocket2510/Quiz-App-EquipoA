@@ -69,7 +69,7 @@ public class Resultados_m1 extends AppCompatActivity {
                 txt_R5.setTypeface(Roboto);
                 siguiente.setTypeface(Roboto);break;
             case "Monserrat":
-                Typeface mon = getResources().getFont(R.font.montserrat);
+                Typeface mon = getResources().getFont(R.font.ubuntu);
                 txt1_3.setTypeface(mon);
                 txt_R1.setTypeface(mon);
                 txt_R2.setTypeface(mon);

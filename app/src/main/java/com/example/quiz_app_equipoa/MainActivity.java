@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 btn_Registrarse.setTypeface(Roboto); break;
 
             case "Monserrat":
-                Typeface mon = getResources().getFont(R.font.montserrat);
+                Typeface mon = getResources().getFont(R.font.ubuntu);
                 txt_1.setTypeface(mon);
                 txt_2.setTypeface(mon);
                 txt_3.setTypeface(mon);

@@ -72,7 +72,7 @@ public class Pregunta_5_m1 extends AppCompatActivity {
                 rb4.setTypeface(Roboto);
                 siguiente.setTypeface(Roboto);break;
             case "Monserrat":
-                Typeface mon = getResources().getFont(R.font.montserrat);
+                Typeface mon = getResources().getFont(R.font.ubuntu);
                 pregunta.setTypeface(mon);
                 rb1.setTypeface(mon);
                 rb2.setTypeface(mon);

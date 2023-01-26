@@ -159,7 +159,9 @@
             <Button
                 android:id="@+id/button"
                 android:onClick="Btn_PantallaInicio"
-                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Volver al menú" />
 
