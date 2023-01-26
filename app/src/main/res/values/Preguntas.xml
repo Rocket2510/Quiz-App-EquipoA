@@ -1,3 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    /* PREGUNTAS MODULO 1/*
+    <string name="txt_1_m1">1. ¿De qué nacionalidad era Juana de Arco?</string> francesa
+    <string name="txt_2_m1">2. ¿Quién dibujo al famoso Hombre de Vitruvio?</string> davinchi
+    <string name="txt_3_m1">3. ¿Qué famoso filósofo fue maestro de Alejandro Magno durante cinco años?</string> Arisitoteles
+    <string name="txt_4_m1">4. ¿En qué año descubrió Cristóbal Colón, América.?</string> 1492
+    <string name="txt_5_m1">5. ¿Quién fue el primer hombre que pisó la luna?</string> Neil amstrong
+
+    /*Respuestas Modulo 1*/
+    <string name="rb1_A_m1">Inglesa</string> <string name="rb3_A_m1">Sócrates</string> <string name="rb5_A_m1">Valentina Tereshckova</string>
+    <string name="rb1_B_m1">Italiana</string> <string name="rb3_B_m1">Aristóteles</string> <string name="rb5_B_m1">Neil Amstrong</string>
+    <string name="rb1_C_m1">Francesa</string> <string name="rb3_C_m1">Platón</string> <string name="rb5_C_m1">Buzz Aldrin</string>
+    <string name="rb1_D_m1">Mexicana</string> <string name="rb3_D_m1">Heráclito</string> <string name="rb5_D_m1">Neri Vela</string>
+    <string name="rb2_A_m1">Miguel Angel</string> <string name="rb4_A_m1">1492</string>
+    <string name="rb2_B_m1">Leonardo da Vinci</string> <string name="rb4_B_m1">1592</string>
+    <string name="rb2_C_m1">Rubens</string> <string name="rb4_C_m1">1498</string>
+    <string name="rb2_D_m1">Diego Rivera</string> <string name="rb4_D_m1">1493</string>
+
+    /* PREGUNTAS MODULO 2/*
+    <string name="txt_1_m2">1. ¿Cuáles son las fases que tiene la fotosíntesis?</string> Luminosa y activa
+    <string name="txt_2_m2">2. ¿En cuántos reinos se clacifican las especies de seres vivos?</string> 5
+    <string name="txt_3_m2">3. ¿Qué explica mendel con sus leyes?</string> Arisitoteles
+    <string name="txt_4_m2">4. ¿Qué necesitan las células para dividirse?</string> 1492
+    <string name="txt_5_m2">5. ¿Dónde realizan las plantas la fotosíntesis?</string> Neil amstrong
+
+    /*Respuestas Modulo 2*/
+    <string name="rb1_A_m2">No tiene fases.</string> <string name="rb3_A_m2">Funcionamiento de órganos reproductores.</string> <string name="rb5_A_m2">En las hojas</string>
+    <string name="rb1_B_m2">Primaria y secundaria.</string> <string name="rb3_B_m2">Genética.</string> <string name="rb5_B_m2">En el aire.</string>
+    <string name="rb1_C_m2">Luminosa y oscura.</string> <string name="rb3_C_m2">La herencia dejada por los padres e hijos</string> <string name="rb5_C_m2">En el tallo.</string>
+    <string name="rb1_D_m2">Activa y pasiva</string> <string name="rb3_D_m2">Ninguna de las anteriores.</string> <string name="rb5_D_m2">En la raíz.</string>
+    <string name="rb2_A_m2">Dos</string> <string name="rb4_A_m2">Nada.</string>
+    <string name="rb2_B_m2">Ocho</string> <string name="rb4_B_m2">Otra célula.</string>
+    <string name="rb2_C_m2">Tres</string> <string name="rb4_C_m2">Sangre</string>
+    <string name="rb2_D_m2">Cinco</string> <string name="rb4_D_m2">Energía</string>
+
+    /* PREGUNTAS MODULO 3/*
+    <string name="txt_1_m3">1. ¿Qué estilo de natación no está permitido en los Juegos Olímpicos?</string> remo para perros
+    <string name="txt_2_m3">2. ¿Qué país tiene más medallas de oro olímpicas en natación?</string> 5
+    <string name="txt_3_m3">3. ¿Qué explica mendel con sus leyes?</string> Arisitoteles
+    <string name="txt_4_m3">4. ¿Qué necesitan las células para dividirse?</string> 1492
+    <string name="txt_5_m3">5. ¿Dónde realizan las plantas la fotosíntesis?</string> Neil amstrong
+
+    /*Respuestas Modulo 3*/
+    <string name="rb1_A_m3">Mariposa</string> <string name="rb3_A_m3">Funcionamiento de órganos reproductores.</string> <string name="rb5_A_m3">En las hojas</string>
+    <string name="rb1_B_m3">Revés.</string> <string name="rb3_B_m3">Genética.</string> <string name="rb5_B_m3">En el aire.</string>
+    <string name="rb1_C_m3">Freestyle</string> <string name="rb3_C_m3">La herencia dejada por los padres e hijos</string> <string name="rb5_C_m3">En el tallo.</string>
+    <string name="rb1_D_m3">remo para perros</string> <string name="rb3_D_m3">Ninguna de las anteriores.</string> <string name="rb5_D_m3">En la raíz.</string>
+    <string name="rb2_A_m3">China</string> <string name="rb4_A_m3">Nada.</string>
+    <string name="rb2_B_m3">Los EE.UU</string> <string name="rb4_B_m3">Otra célula.</string>
+    <string name="rb2_C_m3">El Reino Unido</string> <string name="rb4_C_m3">Sangre</string>
+    <string name="rb2_D_m3">Australia</string> <string name="rb4_D_m3">Energía</string>
+
+
+
+
+
+
+
+
+
+
 </resources>
