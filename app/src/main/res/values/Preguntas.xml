@@ -36,20 +36,37 @@
 
     /* PREGUNTAS MODULO 3/*
     <string name="txt_1_m3">1. ¿Qué estilo de natación no está permitido en los Juegos Olímpicos?</string> remo para perros
-    <string name="txt_2_m3">2. ¿Qué país tiene más medallas de oro olímpicas en natación?</string> 5
-    <string name="txt_3_m3">3. ¿Qué explica mendel con sus leyes?</string> Arisitoteles
-    <string name="txt_4_m3">4. ¿Qué necesitan las células para dividirse?</string> 1492
-    <string name="txt_5_m3">5. ¿Dónde realizan las plantas la fotosíntesis?</string> Neil amstrong
+    <string name="txt_2_m3">2. ¿Qué país tiene más medallas de oro olímpicas en natación?</string> Los EU
+    <string name="txt_3_m3">3. ¿En qué año el boxeo se convirtió en un deporte legal? </string> 1901
+    <string name="txt_4_m3">4. ¿De dónde se originó el término “billar”?</string> Francia
+    <string name="txt_5_m3">5. ¿Cuántas veces ganó Efrén Reyes el campeonato de la Liga Mundial de Pool?</string> Dos
 
     /*Respuestas Modulo 3*/
-    <string name="rb1_A_m3">Mariposa</string> <string name="rb3_A_m3">Funcionamiento de órganos reproductores.</string> <string name="rb5_A_m3">En las hojas</string>
-    <string name="rb1_B_m3">Revés.</string> <string name="rb3_B_m3">Genética.</string> <string name="rb5_B_m3">En el aire.</string>
-    <string name="rb1_C_m3">Freestyle</string> <string name="rb3_C_m3">La herencia dejada por los padres e hijos</string> <string name="rb5_C_m3">En el tallo.</string>
-    <string name="rb1_D_m3">remo para perros</string> <string name="rb3_D_m3">Ninguna de las anteriores.</string> <string name="rb5_D_m3">En la raíz.</string>
-    <string name="rb2_A_m3">China</string> <string name="rb4_A_m3">Nada.</string>
-    <string name="rb2_B_m3">Los EE.UU</string> <string name="rb4_B_m3">Otra célula.</string>
-    <string name="rb2_C_m3">El Reino Unido</string> <string name="rb4_C_m3">Sangre</string>
-    <string name="rb2_D_m3">Australia</string> <string name="rb4_D_m3">Energía</string>
+    <string name="rb1_A_m3">Mariposa</string> <string name="rb3_A_m3">1921</string> <string name="rb5_A_m3">Una</string>
+    <string name="rb1_B_m3">Revés.</string> <string name="rb3_B_m3">1902</string> <string name="rb5_B_m3">Dos</string>
+    <string name="rb1_C_m3">Freestyle</string> <string name="rb3_C_m3">1931</string> <string name="rb5_C_m3">Tres</string>
+    <string name="rb1_D_m3">remo para perros</string> <string name="rb3_D_m3">1911</string> <string name="rb5_D_m3">Las cuatro</string>
+    <string name="rb2_A_m3">China</string> <string name="rb4_A_m3">Italia</string>
+    <string name="rb2_B_m3">Los EE.UU</string> <string name="rb4_B_m3">Hungría</string>
+    <string name="rb2_C_m3">El Reino Unido</string> <string name="rb4_C_m3">Bélgica</string>
+    <string name="rb2_D_m3">Australia</string> <string name="rb4_D_m3">Francia</string>
+
+    /* PREGUNTAS MODULO 4/*
+    <string name="txt_1_m4">1.¿Cuántos Oscar tiene la película más premiada?</string> 11
+    <string name="txt_2_m4">2.A qué año viajan Marty y Doc en "Regreso al futuro II"?</string> 2015
+    <string name="txt_3_m4">3.¿Cuál fue la primera película de terror en color? </string> La maldición de Frankenstein
+    <string name="txt_4_m4">4.¿Qué película de terror fue el debut de Johnny Depp? </string> una pesadilla en la calle Elm
+    <string name="txt_5_m4">5.¿Cuál es la famosa cita de El Sexto Sentido?</string> veo gente muerta
+
+    /*Respuestas Modulo 4*/
+    <string name="rb1_A_m4">14</string> <string name="rb3_A_m4">La maldición de Frankenstein</string> <string name="rb5_A_m4">"Escucho gente muerta"</string>
+    <string name="rb1_B_m4">11</string> <string name="rb3_B_m4">Casa del diablo </string> <string name="rb5_B_m4">“Caminando como gente normal. Ellos no se ven"</string>
+    <string name="rb1_C_m4">12</string> <string name="rb3_C_m4">Misterio del museo de cera </string> <string name="rb5_C_m4">"Veo a gente muerta."</string>
+    <string name="rb1_D_m4">10</string> <string name="rb3_D_m4">El resplandor</string> <string name="rb5_D_m4">"Dejen dormir"</string>
+    <string name="rb2_A_m4">2015</string> <string name="rb4_A_m4">Sombras en la oscuridad </string>
+    <string name="rb2_B_m4">2016</string> <string name="rb4_B_m4">Desde el infierno</string>
+    <string name="rb2_C_m4">2014</string> <string name="rb4_C_m4">Piratas del Caribe</string>
+    <string name="rb2_D_m4">2013</string> <string name="rb4_D_m4">una pesadilla en la calle Elm</string>
 
 
 

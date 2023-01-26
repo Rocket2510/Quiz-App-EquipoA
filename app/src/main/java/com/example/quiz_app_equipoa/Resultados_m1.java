@@ -1,10 +1,16 @@
 package com.example.quiz_app_equipoa;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.preference.PreferenceManager;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.Typeface;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.quiz_app_equipoa.R;
@@ -14,6 +20,8 @@ public class Resultados_m1 extends AppCompatActivity {
     int d1, d2, d3, d4, d5;
     Bundle bundle1, bundle2;
     TextView txt1_3, txt_R1, txt_R2, txt_R3, txt_R4, txt_R5;
+    Button siguiente;
+    private SharedPreferences prefs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,10 +39,54 @@ public class Resultados_m1 extends AppCompatActivity {
         txt_R3 = findViewById(R.id.txt_R3);
         txt_R4 = findViewById(R.id.txt_R4);
         txt_R5 = findViewById(R.id.txt_R5);
-
+        siguiente = findViewById(R.id.button);
+        prefs = PreferenceManager.getDefaultSharedPreferences(this);
         bundle1 = getIntent().getExtras();
         calificacion = bundle1.getInt("calificacion");
 
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.O)
+    @Override
+    protected void onResume() {
+        Pref_Fuente();
+        super.onResume();
+    }
+
+    //Metodo para cambiar a las Preferencias de Fuente
+    @RequiresApi(api = Build.VERSION_CODES.O)
+    public void Pref_Fuente(){
+        String fuente = prefs.getString("reply_Fuente", "Roboto");
+
+        switch (fuente){
+            case "Roboto":
+                Typeface Roboto = getResources().getFont(R.font.roboto);
+                txt1_3.setTypeface(Roboto);
+                txt_R1.setTypeface(Roboto);
+                txt_R2.setTypeface(Roboto);
+                txt_R3.setTypeface(Roboto);
+                txt_R4.setTypeface(Roboto);
+                txt_R5.setTypeface(Roboto);
+                siguiente.setTypeface(Roboto);break;
+            case "Monserrat":
+                Typeface mon = getResources().getFont(R.font.montserrat);
+                txt1_3.setTypeface(mon);
+                txt_R1.setTypeface(mon);
+                txt_R2.setTypeface(mon);
+                txt_R3.setTypeface(mon);
+                txt_R4.setTypeface(mon);
+                txt_R5.setTypeface(mon);
+                siguiente.setTypeface(mon);break;
+            case "Play":
+                Typeface play = getResources().getFont(R.font.play);
+                txt1_3.setTypeface(play);
+                txt_R1.setTypeface(play);
+                txt_R2.setTypeface(play);
+                txt_R3.setTypeface(play);
+                txt_R4.setTypeface(play);
+                txt_R5.setTypeface(play);
+                siguiente.setTypeface(play);break;
+        }
     }
 
     public void MostrarResultados(){

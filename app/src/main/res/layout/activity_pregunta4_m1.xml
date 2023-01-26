@@ -39,32 +39,32 @@
                 app:layout_constraintTop_toBottomOf="@+id/txt_1">
 
                 <RadioButton
-                    android:id="@+id/rb4_A"
+                    android:id="@+id/rb4_A_m1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="A" />
 
                 <RadioButton
-                    android:id="@+id/rb4_B"
+                    android:id="@+id/rb4_B_m1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="B" />
 
                 <RadioButton
-                    android:id="@+id/rb4_C"
+                    android:id="@+id/rb4_C_m1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="C" />
 
                 <RadioButton
-                    android:id="@+id/rb4_D"
+                    android:id="@+id/rb4_D_m1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="D" />
             </RadioGroup>
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/button4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="144dp"

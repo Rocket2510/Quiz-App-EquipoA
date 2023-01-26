@@ -1,15 +1,17 @@
 <resources>
     <!-- Modalidad -->
     <string-array name="reply_entriesModalidad">
-        <item>Quimica</item>
         <item>Historia</item>
-        <item>Cine</item>
+        <item>Biología</item>
         <item>Deportes</item>
+        <item>Cine</item>
     </string-array>
 
     <string-array name="reply_valuesModalidad">
-        <item>reply</item>
-        <item>reply_all</item>
+        <item>Historia</item>
+        <item>Biología</item>
+        <item>Deportes</item>
+        <item>Cine</item>
     </string-array>
 
     <!-- Fuente -->
