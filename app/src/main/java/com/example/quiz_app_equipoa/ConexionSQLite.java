@@ -1,6 +1,7 @@
 package com.example.quiz_app_equipoa;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -15,9 +16,8 @@ public class ConexionSQLite extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE users " +
-                "(user_id INTEGER PRIMARY KEY AUTOINCREMENT," +
-                " username TEXT NOT NULL," +
-                " email TEXT NOT NULL," +
+                "(username TEXT PRIMARY KEY AUTOINCREMENT," +
+                " email VARCHAR NOT NULL," +
                 " password TEXT NOT NULL)");
 
         db.execSQL("CREATE TABLE questions " +
@@ -57,6 +57,30 @@ public class ConexionSQLite extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS quiz_history");
         onCreate(db);
     }
+
+    public Boolean Checkemail(String email){
+        SQLiteDatabase Registro_DB = this.getWritableDatabase();
+        Cursor Log_DB = Registro_DB.rawQuery
+                ("SELECT * FROM users WHERE email=?", new String[] {email});
+        if (Log_DB.getCount()>0){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    public Boolean Checkpassword(String email, String password){
+        SQLiteDatabase Registro_DB = this.getWritableDatabase();
+        Cursor Log_DB = Registro_DB.rawQuery
+                ("SELECT * FROM users WHERE password=? and email=?", new String[] {email,password});
+        if (Log_DB.getCount()>0){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+
 }
 
 /*

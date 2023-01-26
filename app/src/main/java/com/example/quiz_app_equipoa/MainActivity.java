@@ -4,8 +4,11 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.PreferenceManager;
 
+import android.content.ContentValues;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Typeface;
 import android.os.Build;
 import android.os.Bundle;
@@ -13,12 +16,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private TextView txt_1, txt_2, txt_3;
-    private EditText Etxt_Email, Etxt_password;
+    private EditText txt_EmailAccess, txt_PasswordAccess;
     private Button btn_IniciarSesion, btn_Registrarse;
     private SharedPreferences prefs;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,8 +44,10 @@ public class MainActivity extends AppCompatActivity {
 
     //Metodo para acceder a la pantalla de inicio (En lo que programamos la validacion)
     public void Btn_IniciarSesion (View v){
+
         Intent i = new Intent(this, Pantalla_Inicio.class);
         startActivity(i);
+
     }
 
     public void Btn_Registrarse (View v){
@@ -53,8 +60,8 @@ public class MainActivity extends AppCompatActivity {
         txt_2 = (TextView) findViewById(R.id.txt_Email);
         txt_3 = (TextView) findViewById(R.id.txt_pswd);
 
-        Etxt_Email = (EditText) findViewById(R.id.txt_EmailAccess);
-        Etxt_password = (EditText) findViewById(R.id.txt_PasswordAddress);
+        txt_EmailAccess = (EditText) findViewById(R.id.txt_EmailAccess);
+        txt_PasswordAccess = (EditText) findViewById(R.id.txt_PasswordAddress);
 
         btn_IniciarSesion = (Button) findViewById(R.id.btn_IniciarSesion1);
         btn_Registrarse = (Button) findViewById(R.id.btn_Registrate1);
@@ -70,8 +77,8 @@ public class MainActivity extends AppCompatActivity {
                 txt_1.setTypeface(Roboto);
                 txt_2.setTypeface(Roboto);
                 txt_3.setTypeface(Roboto);
-                Etxt_Email.setTypeface(Roboto);
-                Etxt_password.setTypeface(Roboto);
+                txt_EmailAccess.setTypeface(Roboto);
+                txt_PasswordAccess.setTypeface(Roboto);
                 btn_IniciarSesion.setTypeface(Roboto);
                 btn_Registrarse.setTypeface(Roboto); break;
 
@@ -80,8 +87,8 @@ public class MainActivity extends AppCompatActivity {
                 txt_1.setTypeface(mon);
                 txt_2.setTypeface(mon);
                 txt_3.setTypeface(mon);
-                Etxt_Email.setTypeface(mon);
-                Etxt_password.setTypeface(mon);
+                txt_EmailAccess.setTypeface(mon);
+                txt_PasswordAccess.setTypeface(mon);
                 btn_IniciarSesion.setTypeface(mon);
                 btn_Registrarse.setTypeface(mon); break;
 
@@ -90,8 +97,8 @@ public class MainActivity extends AppCompatActivity {
                 txt_1.setTypeface(play);
                 txt_2.setTypeface(play);
                 txt_3.setTypeface(play);
-                Etxt_Email.setTypeface(play);
-                Etxt_password.setTypeface(play);
+                txt_EmailAccess.setTypeface(play);
+                txt_PasswordAccess.setTypeface(play);
                 btn_IniciarSesion.setTypeface(play);
                 btn_Registrarse.setTypeface(play); break;
         }
