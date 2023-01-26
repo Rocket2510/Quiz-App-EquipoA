@@ -28,4 +28,7 @@
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
 
+    <!--Strings Preguntas-->
+    <string name="btn_siguiente">Siguiente</string>
+
 </resources>
