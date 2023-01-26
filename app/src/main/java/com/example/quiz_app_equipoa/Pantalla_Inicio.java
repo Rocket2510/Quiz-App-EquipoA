@@ -56,6 +56,7 @@ public class Pantalla_Inicio extends AppCompatActivity {
                 txt_TxtQuiz.setTypeface(Roboto);
                 btn_Modalidad.setTypeface(Roboto);
                 btn_Iniciar.setTypeface(Roboto);break;
+                
             case "Monserrat":
                 Typeface mon = getResources().getFont(R.font.ubuntu);
                 txt_TxtQuiz.setTypeface(mon);
