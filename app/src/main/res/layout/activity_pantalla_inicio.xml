@@ -44,10 +44,9 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="0dp"
-            android:layout_height="200sp"
-            android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:srcCompat="@drawable/quiz" />
     </LinearLayout>
 
     <LinearLayout
