@@ -74,7 +74,7 @@ public class Pantalla_Inicio extends AppCompatActivity {
         startActivity(preferencias);
     }
 
-    public void Btn_IniciarJuego(View v){
+    public void Btn_IniciarJuego(View sender){
         Intent StartGame = new Intent(this, Pregunta_1_m1.class);
         startActivity(StartGame);
     }

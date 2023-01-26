@@ -58,7 +58,7 @@ public class Pregunta_2_m1 extends AppCompatActivity {
                 break;
         }
 
-        Intent siquiente2 = new Intent(this, Pregunta_2_m1.class);
+        Intent siquiente2 = new Intent(this, Pregunta_3_m1.class);
         siquiente2.putExtra("calificacion", calificacion);
         siquiente2.putExtra("respuesta1", respuesta1);
         siquiente2.putExtra("respuesta2", respuesta2);

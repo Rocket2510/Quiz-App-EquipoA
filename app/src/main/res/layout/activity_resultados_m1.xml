@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Modulo1.Resultados_m1">
+    tools:context=".Resultados_m1">
 
 
     <ScrollView
@@ -161,6 +161,13 @@
                 android:textSize="32sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt1_2" />
+
+            <Button
+                android:id="@+id/button"
+                android:onClick="Btn_PantallaInicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Volver al menú" />
 
         </LinearLayout>
     </ScrollView>

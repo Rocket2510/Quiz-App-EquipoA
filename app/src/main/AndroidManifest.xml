@@ -14,22 +14,22 @@
         android:theme="@style/Theme.QuizAppEquipoA"
         tools:targetApi="31">
         <activity
-            android:name=".Resultados"
+            android:name=".Resultados_m1"
             android:exported="false" />
         <activity
-            android:name=".Pregunta_5"
+            android:name=".Pregunta_5_m1"
             android:exported="false" />
         <activity
-            android:name=".Pregunta_4"
+            android:name=".Pregunta_4_m1"
             android:exported="false" />
         <activity
-            android:name=".Pregunta_3"
+            android:name=".Pregunta_3_m1"
             android:exported="false" />
         <activity
-            android:name=".Pregunta_2"
+            android:name=".Pregunta_2_m1"
             android:exported="false" />
         <activity
-            android:name=".Pregunta_1"
+            android:name=".Pregunta_1_m1"
             android:exported="false" />
         <activity
             android:name=".Pref_modalidad"

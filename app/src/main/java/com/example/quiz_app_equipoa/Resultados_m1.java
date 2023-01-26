@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.example.quiz_app_equipoa.R;
@@ -19,8 +20,12 @@ public class Resultados_m1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resultados_m1);
 
-        txt1_3 = findViewById(R.id.txt1_3);
+        InicializarComponentes();
+        MostrarResultados();
+    }
 
+    public void InicializarComponentes(){
+        txt1_3 = findViewById(R.id.txt1_3);
         txt_R1 = findViewById(R.id.txt_R1);
         txt_R2 = findViewById(R.id.txt_R2);
         txt_R3 = findViewById(R.id.txt_R3);
@@ -30,6 +35,9 @@ public class Resultados_m1 extends AppCompatActivity {
         bundle1 = getIntent().getExtras();
         calificacion = bundle1.getInt("calificacion");
 
+    }
+
+    public void MostrarResultados(){
         // muestra el puntaje obtenido
         txt1_3.setText("" + calificacion);
 
@@ -84,5 +92,12 @@ public class Resultados_m1 extends AppCompatActivity {
         }else{
             txt_R5.setText("INCORRECTA");
         }
+
+    }
+
+    public void Btn_PantallaInicio(View v){
+        Intent i = new Intent(this, Pantalla_Inicio.class);
+        startActivity(i);
+
     }
 }
